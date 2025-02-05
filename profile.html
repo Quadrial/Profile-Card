@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile Card</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="profile-card">
+      <div class="header">
+        <div class="profile-info">
+          <h2 data-testid="fullName">Isiak Quadri Opeyemi</h2>
+          <p data-testid="jobTitle">Frontend Developer</p>
+          <p class="location" data-testid="currentLocation">
+            📍 Lagos, Nigeria
+          </p>
+          <p
+            class="current-time"
+            data-testid="currentTimeUTC"
+            id="current-time"
+          ></p>
+        </div>
+      </div>
+
+      <div class="profile-picture" data-testid="profilePicture">
+        <img src="images/mypix.jpg" alt="Profile Picture" />
+      </div>
+
+      <div class="icons">
+        <div class="icon">📞</div>
+        <div class="icon">💬</div>
+      </div>
+
+      <div class="about">
+        <h3>About me</h3>
+        <p data-testid="shortBio">
+          I am a passionate Frontend Developer with experience in creating
+          dynamic and responsive web applications. I specialize in HTML, CSS,
+          JavaScript, and modern frameworks like React. I enjoy turning complex
+          problems into simple, beautiful, and intuitive designs.
+        </p>
+      </div>
+
+      <div class="contact-info">
+        <p data-testid="emailAddress">✉️ opequadri2@gmail.com</p>
+        <p>🎂 March 15</p>
+        <p>👤 Male</p>
+      </div>
+
+      <button class="follow-btn">Follow</button>
+
+      <div class="social-links" data-testid="socialLinks">
+        <a href="https://github.com/Quadrial" target="_blank"
+          >Follow me on <span>Github</span></a
+        >
+        <a href="https://x.com/IsiakQuadri" target="_blank"
+          >Follow me on <span>Twitter</span></a
+        >
+      </div>
+    </div>
+    <script src="profile.js"></script>
+  </body>
+</html>
